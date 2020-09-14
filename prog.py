@@ -24,14 +24,12 @@ import itertools
 
 # 0 = DBSCAN, 1 = Hierarchical
 clst_type = 1
-classified_csv = False
+classified_csv = True
 
-is_csv = True
+is_csv = False
 sk_learn_dataset = False
 
-#fname = "qsar_db.csv"
-fname = "/Users/nedramekni/Documents/PhD/PCA/mpro/SDF/results_padel/cy_prot_GSK3_EPHX2_inhib_topological_descr.csv"
-
+fname = "qsar_db.csv"
 
 dimension = 0 # number of descriptors, will be automatically computed in csv-smi parser
 colors = []
